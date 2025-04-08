@@ -2,7 +2,7 @@
 numpy==1.22.0;python_version<="3.10"
 numpy>=1.24.3;python_version>"3.10"
 cython>=0.29.30
-scipy>=1.11.2
+scipy==1.12.0
 torch>=2.1
 torchaudio
 soundfile>=0.12.0
@@ -24,7 +24,7 @@ flask>=2.0.1
 pysbd>=0.3.4
 # deps for notebooks
 umap-learn>=0.5.1
-pandas>=1.4,<2.0
+pandas>=1.4
 # deps for training
 matplotlib>=3.7.0
 # coqui stack
@@ -37,7 +37,7 @@ pypinyin
 # korean
 hangul_romanize
 # gruut+supported langs
-gruut[de,es,fr]==2.2.3
+gruut[de,es,fr]
 # deps for korean
 jamo
 nltk
